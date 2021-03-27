@@ -1,3 +1,28 @@
-.text {
+.container {
+  width: 75%;
+  height: auto;
+  padding: 1.25rem;
+  border-radius: 0.313rem;
+  background-color: #161616;
+  color: #444;
+  margin: 1.25rem auto;
+  margin-left: 17rem;
+  overflow: hidden;
+  border: 1px solid #ed145b;
+}
+
+.container h2 {
   text-align: center;
+  color: #ed145b;
+  font-family: "Lato";
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-item {
+  margin-left: 0.5rem;
 }

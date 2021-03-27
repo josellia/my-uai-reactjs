@@ -1,0 +1,28 @@
+button {
+  width: 20rem;
+  height: 2.5rem;
+  border: none;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Mukta", sans-serif;
+  cursor: pointer;
+  border-left: 3px solid #f32a6d;
+}
+button:focus {
+  outline: none;
+}
+.btn-default {
+  background: #ed145b;
+  color: #ddd;
+}
+
+.btn-primary {
+  background: #13bde7;
+  color: #0f0b0b;
+}
+
+.btn-secondary {
+  background: #910dc5;
+  color: #0f0b0b;
+}
