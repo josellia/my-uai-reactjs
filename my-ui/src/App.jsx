@@ -1,7 +1,14 @@
+import Navbar from "./components/menu/Navbar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 const App = () => {
   return (
     <div>
-      <h1>my-ui</h1>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/" />
+        </Switch>
+      </Router>
     </div>
   );
 };
