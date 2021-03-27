@@ -1,2 +1,69 @@
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css");
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+.navbar {
+  background-color: #161616;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #161616;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+
+  transition: 850ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 20px 8px 0;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #ed145b;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 2px;
+  border-radius: 4px;
+  font-family: "Lato";
+}
+.nav-text a:hover {
+  background-color: #bd114a;
+  color: #fff;
+}
+
+.nav-text span {
+  margin-left: 0.5rem;
+}
+
+.nav-menu-items {
+  width: 100%;
+  margin-top: 5rem;
+}
+.navbar-toggle {
+  background-color: #ed145b;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
