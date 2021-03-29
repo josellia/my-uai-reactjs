@@ -8,9 +8,6 @@ button {
   font-family: "Mukta", sans-serif;
   cursor: pointer;
 }
-button:focus {
-  outline: none;
-}
 
 .btn-default {
   background: #ed145b;

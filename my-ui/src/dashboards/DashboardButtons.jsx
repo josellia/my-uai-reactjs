@@ -18,6 +18,7 @@ function DashboardButtons() {
             <ButtonDefault theme="secondary ">Secondary</ButtonDefault>
           </div>
         </div>
+        <h2>Buttons with border radius</h2>
       </div>
     </>
   );
