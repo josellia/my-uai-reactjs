@@ -2,7 +2,7 @@ import React from "react";
 import ButtonDefault from "../components/buttons/buttons-default/ButtonDefault";
 import "./style.css";
 
-function DashboardButtons() {
+const DashboardButtons = () => {
   return (
     <>
       <div className="container">
@@ -22,6 +22,6 @@ function DashboardButtons() {
       </div>
     </>
   );
-}
+};
 
 export default DashboardButtons;

@@ -1,11 +1,11 @@
 import React from "react";
 import "./Button.css";
-function ButtonDefault(props) {
+const ButtonDefault = (props) => {
   return (
     <>
       <button className={"btn-" + props.theme}>{props.children}</button>
     </>
   );
-}
+};
 
 export default ButtonDefault;
