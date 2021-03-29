@@ -3,10 +3,10 @@ import InputField from "../components/input/InputField";
 import Validator from "../utils/Validator";
 
 function DashboardInputs() {
-  const [nameInput, setName] = useState("");
+  const [nameInput, setNameInput] = useState("");
 
   const handleChange = (key) => (value) => {
-    setName({ [key]: value });
+    setNameInput({ [key]: value });
   };
   return (
     <>
