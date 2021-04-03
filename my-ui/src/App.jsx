@@ -4,6 +4,7 @@ import "./App.css";
 import DashboardButtons from "./dashboards/DashboardButtons";
 import DashboardInputs from "./dashboards/DashboardInputs";
 import Home from "./pages/Home";
+import DashboardForms from "./dashboards/DasboardForms";
 const App = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const App = () => {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/dasboard-buttons" component={DashboardButtons} />
+          <Route path="/dasboard-forms" component={DashboardForms} />
           <Route path="/dasboard-inputs" component={DashboardInputs} />
         </Switch>
       </Router>

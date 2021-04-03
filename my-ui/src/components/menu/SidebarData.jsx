@@ -17,6 +17,12 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
+    title: "Forms",
+    path: "/dasboard-forms",
+    icon: <IoIcons.IoIosAlbums />,
+    cName: "nav-text",
+  },
+  {
     title: "Inputs",
     path: "/dasboard-inputs",
     icon: <IoIcons.IoIosAirplane />,
