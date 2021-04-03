@@ -6,6 +6,7 @@ const DashboardForms = () => {
     fields: [
       { label: "First name", type: "text", name: "firstname" },
       { label: "Second name", type: "text", name: "secondname" },
+      { label: "E-mail", type: "text", name: "email" },
     ],
   };
   return (

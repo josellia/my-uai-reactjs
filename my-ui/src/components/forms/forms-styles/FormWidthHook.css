@@ -1,0 +1,23 @@
+.form-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dc143c;
+  padding: 1rem;
+  height: auto;
+  width: 30rem;
+  max-height: 100%;
+}
+
+.label-hook {
+  font-family: "Mukta", sans-serif;
+  color: #e6e8e9;
+}
+.form-control-input {
+  width: 30rem;
+  max-width: 100%;
+  border: none;
+  height: 2rem;
+  border-radius: 2rem;
+}
