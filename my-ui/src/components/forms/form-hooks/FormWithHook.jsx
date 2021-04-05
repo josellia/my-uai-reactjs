@@ -1,8 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import ButtonBorderRadius from "../buttons/buttons-border-radius/ButtonBorderRadius";
+import ButtonBorderRadius from "../../buttons/buttons-border-radius/ButtonBorderRadius";
 
-import "../forms/forms-styles/FormWidthHook.css";
+import "./FormWidthHook.css";
 
 const FormWithHook = ({ template, onSubmit }) => {
   let { register, handleSubmit } = useForm();

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FormWithHook from "../components/forms/FormWithHook";
+import FormWithHook from "../components/forms/form-hooks/FormWithHook";
 
 const DashboardForms = () => {
   let template = {
