@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   background-color: #dc143c;
-  padding: 1rem;
+  padding: 1.2rem;
   height: auto;
   width: 30rem;
   max-height: 100%;
@@ -13,6 +13,7 @@
 .label-hook {
   font-family: "Mukta", sans-serif;
   color: #e6e8e9;
+  margin-left: 1rem;
 }
 .form-control-input {
   width: 30rem;
@@ -20,7 +21,11 @@
   border: none;
   height: 2rem;
   border-radius: 2rem;
-  text-align: left;
-  box-sizing: border-box;
   padding-left: 1rem;
+}
+.content-button {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import ButtonDefault from "../buttons/buttons-default/ButtonDefault";
+import ButtonBorderRadius from "../buttons/buttons-border-radius/ButtonBorderRadius";
+
 import "../forms/forms-styles/FormWidthHook.css";
 
 const FormWithHook = ({ template, onSubmit }) => {
@@ -33,9 +34,7 @@ const FormWithHook = ({ template, onSubmit }) => {
           {renderFields(fields)}
 
           <div className="content-button">
-            <ButtonDefault type="submit" theme="default">
-              Salvar
-            </ButtonDefault>
+            <ButtonBorderRadius type="submit" description="Save" />
           </div>
         </div>
       </form>

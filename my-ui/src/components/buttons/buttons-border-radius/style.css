@@ -1,0 +1,19 @@
+.btn-radius {
+  width: 20rem;
+  max-width: 100%;
+  border: none;
+  height: 2.3rem;
+  border-radius: 2rem;
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+  transition: all 0.4s;
+  font-size: 1.2rem;
+  background-color: #161616;
+  color: #f1eded;
+}
+
+.btn-radius:hover {
+  cursor: pointer;
+  background-color: #db526d;
+  color: #f1eded;
+}
