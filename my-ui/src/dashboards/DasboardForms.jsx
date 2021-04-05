@@ -12,10 +12,13 @@ const DashboardForms = () => {
   return (
     <>
       <div className="container">
-        <FormWithHook template={template}></FormWithHook>
+        <FormWithHook template={template} onSubmit={onSubmit} />
       </div>
     </>
   );
 };
 
+const onSubmit = (values) => {
+  console.log(values);
+};
 export default DashboardForms;

@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import ButtonDefault from "../buttons/buttons-default/ButtonDefault";
 import "../forms/forms-styles/FormWidthHook.css";
 
-const FormWithHook = ({ template }) => {
+const FormWithHook = ({ template, onSubmit }) => {
   let { register, handleSubmit } = useForm();
   let { fields } = template;
 
@@ -12,7 +12,7 @@ const FormWithHook = ({ template }) => {
       let { label, type, name } = field;
       return (
         <div key={name}>
-          <label htmlFor="firstname" className="label-hook">
+          <label htmlFor={name} className="label-hook">
             {label}
           </label>
           <input
@@ -20,7 +20,7 @@ const FormWithHook = ({ template }) => {
             type={type}
             name={name}
             id={name}
-            {...register("firstname")}
+            {...register(name)}
           />
         </div>
       );
@@ -33,7 +33,9 @@ const FormWithHook = ({ template }) => {
           {renderFields(fields)}
 
           <div className="content-button">
-            <ButtonDefault type="submit" theme="default"></ButtonDefault>
+            <ButtonDefault type="submit" theme="default">
+              Salvar
+            </ButtonDefault>
           </div>
         </div>
       </form>
@@ -41,7 +43,4 @@ const FormWithHook = ({ template }) => {
   );
 };
 
-const onSubmit = (values) => {
-  console.log(values);
-};
 export default FormWithHook;
