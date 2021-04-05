@@ -1,4 +1,4 @@
-/* button {
+.generic-style button {
   width: 20rem;
   height: 2.5rem;
   border: none;
@@ -7,7 +7,7 @@
   font-weight: bold;
   font-family: "Mukta", sans-serif;
   cursor: pointer;
-} */
+}
 
 .btn-default {
   background: #ed145b;

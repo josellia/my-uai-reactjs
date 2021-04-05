@@ -3,7 +3,9 @@ import "./Button.css";
 const ButtonDefault = (props) => {
   return (
     <>
-      <button className={"btn-" + props.theme}>{props.children}</button>
+      <div className="generic-style">
+        <button className={"btn-" + props.theme}>{props.children}</button>
+      </div>
     </>
   );
 };
