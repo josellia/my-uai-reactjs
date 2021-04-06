@@ -11,6 +11,12 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
+    title: "Teste",
+    path: "/",
+    icon: <FaIcons.FaAdobe />,
+    cName: "nav-text",
+  },
+  {
     title: "Buttons",
     path: "/dasboard-buttons",
     icon: <AiIcons.AiOutlineCode />,
