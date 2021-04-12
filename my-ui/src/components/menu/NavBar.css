@@ -17,7 +17,7 @@
   width: 250px;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   position: fixed;
   top: 0;
 
@@ -38,11 +38,11 @@
   color: #ed145b;
   font-size: 18px;
   width: 95%;
-  height: 100%;
+  height: 80%;
   display: flex;
   align-items: center;
-  padding: 0 0 0 2px;
-  border-radius: 4px;
+  padding: 0 2px 0 2px;
+
   font-family: "Lato";
 }
 .nav-text a:hover {

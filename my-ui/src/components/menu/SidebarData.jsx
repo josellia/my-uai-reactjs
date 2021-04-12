@@ -12,7 +12,7 @@ export const SidebarData = [
   },
   {
     title: "Teste",
-    path: "/",
+    path: "/test",
     icon: <FaIcons.FaAdobe />,
     cName: "nav-text",
   },
@@ -32,6 +32,13 @@ export const SidebarData = [
     title: "Inputs",
     path: "/dasboard-inputs",
     icon: <IoIcons.IoIosAirplane />,
+    cName: "nav-text",
+  },
+
+  {
+    title: "Tables",
+    path: "/dasboard-tables",
+    icon: <IoIcons.IoMdTabletLandscape />,
     cName: "nav-text",
   },
 ];
