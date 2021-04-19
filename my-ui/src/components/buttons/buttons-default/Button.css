@@ -7,12 +7,13 @@
   font-weight: bold;
   font-family: "Mukta", sans-serif;
   cursor: pointer;
+  border-left: 0.5rem solid #ff6347;
+  transition: all 0.4s;
 }
 
 .btn-default {
   background: #ed145b;
   color: #ddd;
-  border-left: 4px solid #450ddf;
 }
 
 .btn-default:hover {
@@ -23,7 +24,6 @@
 .btn-primary {
   background: #13bde7;
   color: #0f0b0b;
-  border-left: 3px solid #3819a8;
 }
 .btn-primary:hover {
   background: #46cef0;
@@ -32,8 +32,7 @@
 
 .btn-secondary {
   background: #910dc5;
-  color: #0f0b0b;
-  border-left: 3px solid #f32a6d;
+  color: #ecdf20;
 }
 
 .btn-secondary:hover {

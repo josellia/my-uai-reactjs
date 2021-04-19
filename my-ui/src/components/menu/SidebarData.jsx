@@ -29,9 +29,9 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Inputs",
-    path: "/dasboard-inputs",
-    icon: <IoIcons.IoIosAirplane />,
+    title: "Estudos Hooks",
+    path: "/dasboard-estudos",
+    icon: <IoIcons.IoIosAmericanFootball />,
     cName: "nav-text",
   },
 

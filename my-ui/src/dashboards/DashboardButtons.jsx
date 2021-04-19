@@ -6,7 +6,7 @@ const DashboardButtons = () => {
   return (
     <>
       <div className="container">
-        <h2>Buttons default</h2>
+        <h2>Default Buttons</h2>
         <div className="content">
           <div className="content-item">
             <ButtonDefault theme="default">Default</ButtonDefault>
@@ -18,7 +18,7 @@ const DashboardButtons = () => {
             <ButtonDefault theme="secondary ">Secondary</ButtonDefault>
           </div>
         </div>
-        <h2>Buttons with border radius</h2>
+        {/* <h2>Buttons with border radius</h2> */}
       </div>
     </>
   );
