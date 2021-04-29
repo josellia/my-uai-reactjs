@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Card from "../teste/estudos-praticos/hooks/Card";
-import Fragements from "../teste/estudos-praticos/hooks/Fragements";
+import ShowImage from "../teste/estudos-praticos/hooks/ShowImage";
 import { ThemeContext, themes } from "../teste/estudos-praticos/hooks/Theme";
 
 const DashboardEstudos = () => {
@@ -19,10 +19,10 @@ const DashboardEstudos = () => {
   return (
     <>
       <div className="container">
-        <ThemeContext.Provider value={{ ...themes.primary, token }}>
+        {/* <ThemeContext.Provider value={{ ...themes.primary, token }}>
           <Card></Card>
-        </ThemeContext.Provider>
-        <Fragements />
+        </ThemeContext.Provider> */}
+        <ShowImage />
       </div>
     </>
   );

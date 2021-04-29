@@ -11,7 +11,7 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Teste",
+    title: "Projetos",
     path: "/test",
     icon: <FaIcons.FaAdobe />,
     cName: "nav-text",
