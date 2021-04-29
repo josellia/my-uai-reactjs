@@ -4,23 +4,21 @@ import "./style.css";
 
 const DashboardButtons = () => {
   return (
-    <>
-      <div className="container">
-        <h2>Default Buttons</h2>
-        <div className="content">
-          <div className="content-item">
-            <ButtonDefault theme="default">Default</ButtonDefault>
-          </div>
-          <div className="content-item">
-            <ButtonDefault theme="primary ">Primary</ButtonDefault>
-          </div>
-          <div className="content-item">
-            <ButtonDefault theme="secondary ">Secondary</ButtonDefault>
-          </div>
+    <div className="container">
+      <h2>Default Buttons</h2>
+      <div className="content">
+        <div className="content-item">
+          <ButtonDefault theme="default">Default</ButtonDefault>
         </div>
-        {/* <h2>Buttons with border radius</h2> */}
+        <div className="content-item">
+          <ButtonDefault theme="primary ">Primary</ButtonDefault>
+        </div>
+        <div className="content-item">
+          <ButtonDefault theme="secondary ">Secondary</ButtonDefault>
+        </div>
       </div>
-    </>
+      {/* <h2>Buttons with border radius</h2> */}
+    </div>
   );
 };
 

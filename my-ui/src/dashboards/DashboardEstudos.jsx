@@ -17,14 +17,12 @@ const DashboardEstudos = () => {
     }, 4000);
   }, [setToken]);
   return (
-    <>
-      <div className="container">
-        {/* <ThemeContext.Provider value={{ ...themes.primary, token }}>
+    <div className="container">
+      {/* <ThemeContext.Provider value={{ ...themes.primary, token }}>
           <Card></Card>
         </ThemeContext.Provider> */}
-        <ShowImage />
-      </div>
-    </>
+      <ShowImage />
+    </div>
   );
 };
 

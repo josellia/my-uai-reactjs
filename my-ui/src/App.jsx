@@ -5,9 +5,10 @@ import DashboardButtons from "./dashboards/DashboardButtons";
 
 import Home from "./pages/Home";
 import DashboardForms from "./dashboards/DasboardForms";
-import Contact from "./teste/project-one/Contact";
+
 import { DashboardTables } from "./dashboards/DashboardTables";
 import DashboardEstudos from "./dashboards/DashboardEstudos";
+import DashboardProjetos from "./dashboards/DashboardProjetos";
 const App = () => {
   return (
     <div>
@@ -15,7 +16,7 @@ const App = () => {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/test" component={Contact} />
+          <Route path="/projects" component={DashboardProjetos} />
           <Route path="/dasboard-buttons" component={DashboardButtons} />
           <Route path="/dasboard-forms" component={DashboardForms} />
           <Route path="/dasboard-estudos" component={DashboardEstudos} />

@@ -12,7 +12,7 @@ export const SidebarData = [
   },
   {
     title: "Projetos",
-    path: "/test",
+    path: "/projects",
     icon: <FaIcons.FaAdobe />,
     cName: "nav-text",
   },
