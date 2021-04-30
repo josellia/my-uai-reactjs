@@ -8,13 +8,13 @@ const DashboardButtons = () => {
       <h2>Default Buttons</h2>
       <div className="content">
         <div className="content-item">
-          <ButtonDefault theme="default">Default</ButtonDefault>
+          <ButtonDefault theme="default" description="Default" />
         </div>
         <div className="content-item">
-          <ButtonDefault theme="primary ">Primary</ButtonDefault>
+          <ButtonDefault theme="primary" description="Primary" />
         </div>
         <div className="content-item">
-          <ButtonDefault theme="secondary ">Secondary</ButtonDefault>
+          <ButtonDefault theme="secondary" description="Secondary" />
         </div>
       </div>
       {/* <h2>Buttons with border radius</h2> */}
