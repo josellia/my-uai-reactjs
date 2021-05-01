@@ -1,0 +1,10 @@
+.container-project {
+  width: 75%;
+  height: auto;
+  padding: 1.25rem;
+  background-color: #565758;
+
+  margin: 1.25rem auto;
+  margin-left: 17rem;
+  overflow: hidden;
+}
