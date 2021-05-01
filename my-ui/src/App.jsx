@@ -9,6 +9,7 @@ import DashboardForms from "./dashboards/DasboardForms";
 import { DashboardTables } from "./dashboards/DashboardTables";
 import DashboardEstudos from "./dashboards/DashboardEstudos";
 import DashboardProjetos from "./dashboards/DashboardProjetos";
+import FormPromotion from "./teste/project-one/pages/promotion/Form/FormPromotion";
 const App = () => {
   return (
     <div>
@@ -17,6 +18,10 @@ const App = () => {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/projects" component={DashboardProjetos} />
+          {/* Routes test */}
+          <Route path="/create-promotion" component={FormPromotion} />
+          <Route path="/edit-promotion/:id" component={FormPromotion} />
+
           <Route path="/dasboard-buttons" component={DashboardButtons} />
           <Route path="/dasboard-forms" component={DashboardForms} />
           <Route path="/dasboard-estudos" component={DashboardEstudos} />

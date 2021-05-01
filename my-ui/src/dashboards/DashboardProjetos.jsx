@@ -1,12 +1,12 @@
 import React from "react";
+import PromotionSearch from "../teste/project-one/pages/promotion/Search/Search";
 
-import Root from "../teste/project-one/pages/Root";
 import "./dashboard-project.css";
 
 const DashboardProjetos = () => {
   return (
     <div className="container-project">
-      <Root />
+      <PromotionSearch />
     </div>
   );
 };
