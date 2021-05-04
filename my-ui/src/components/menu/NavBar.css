@@ -44,12 +44,17 @@
   padding: 0 2px 0 2px;
 
   font-family: "Lato";
+  transition: color 0.2s;
 }
+
 .nav-text a:hover {
   background-color: #bd114a;
   color: #fff;
 }
-
+a.active {
+  background-color: #bd114a;
+  color: tomato;
+}
 .nav-text span {
   margin-left: 0.5rem;
 }
