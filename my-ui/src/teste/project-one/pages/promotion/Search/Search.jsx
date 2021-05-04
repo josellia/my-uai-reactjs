@@ -1,24 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PromotionCard from "../../../components/Promotion/Card/Card";
+import axios from "axios";
 
 const PromotionSearch = () => {
-  const promotion = {
-    id: 1,
-    title: "Skate street",
-    price: 200,
-    url: "https://www.kanui.com.br/skate/skates-street/",
-    imageUrl:
-      "https://cdn.pixabay.com/photo/2015/11/07/11/13/skateboard-1030929__340.jpg",
-    comments: [
-      {
-        id: 1,
-        comment: "Muito legal!",
-      },
-    ],
-  };
+  const [promotions, setPromotions] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:3006/promotion?_embed=comments")
+      .then((response) => {
+        setPromotions(response.data);
+      });
+  }, []);
+
   return (
     <div>
-      <PromotionCard promotion={promotion} />
+      {promotions.map((promotion) => (
+        <PromotionCard key={promotion.id} promotion={promotion} />
+      ))}
     </div>
   );
 };

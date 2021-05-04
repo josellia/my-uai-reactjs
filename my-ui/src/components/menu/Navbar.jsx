@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import React from "react";
+import { NavLink } from "react-router-dom";
 // import * as FaIcons from "react-icons/fa";
 // import * as AiIcons from "react-icons/ai";
 import { SidebarData } from "./SidebarData";
@@ -7,7 +7,6 @@ import "./Navbar.css";
 import { IconContext } from "react-icons/lib";
 
 function Navbar() {
-  const [isActive, setisActive] = useState(false);
   return (
     <>
       <IconContext.Provider value={{ color: "#c1c1c1" }}>

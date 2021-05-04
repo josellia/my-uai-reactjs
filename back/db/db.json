@@ -1,9 +1,32 @@
 {
-  "contacts": [
+  "promotion": [
     {
       "id": 1,
-      "name": "Paul",
-      "email": "paul@gmail.com"
+      "title": "Skate street",
+      "price": 200,
+      "url": "https://www.kanui.com.br/skate/skates-street/",
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/11/07/11/13/skateboard-1030929__340.jpg"
+    },
+
+    {
+      "id": 2,
+      "title": "Skate infantil",
+      "price": 300,
+      "url": "https://www.kanui.com.br/skate/skates-street/",
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/04/25/13/46/toy-6206415_960_720.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "comment": "Muito legal!",
+      "promotionId": 1
+    },
+
+    {
+      "id": 2,
+      "comment": "Sem disconto?",
+      "promotionId": 2
     }
   ]
 }
